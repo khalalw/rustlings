@@ -11,6 +11,11 @@
 
 // Put your function here!
 // fn calculate_price_of_apples(???) -> ??? {
+fn calculate_price_of_apples(num: i8) -> i8 {
+    let cost_per_apple = if num > 40 { 1 } else { 2 };
+
+    cost_per_apple * num
+}
 
 fn main() {
     // You can optionally experiment here.
